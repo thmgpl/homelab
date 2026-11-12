@@ -15,7 +15,7 @@ For that I needed a shell, so I turned on SSH with root password login for a sho
 - SSH listens only on the ADMIN VLAN
 - The web GUI is reachable only from the LAN and the ADMIN VLAN
 
-Every login now needs the YubiKey plugged in and a touch. On Windows a ''Sign in with a passkey'' prompt pops up first:
+Every login now needs the YubiKey plugged in and a touch. On Windows a "Sign in with a passkey" prompt pops up first:
 
 ![Passkey prompt on Windows](01-passkey-prompt.png)
 
