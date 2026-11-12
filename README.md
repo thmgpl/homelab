@@ -84,12 +84,13 @@ Planned case studies, one per week:
 
 - [ ] OPNsense on Proxmox with NIC passthrough
 - [ ] VLAN segmentation and inter-VLAN firewall rules
-- [ ] Hardening admin access: YubiKey-backed SSH, GUI bound to admin networks
+- [x] Hardening admin access: YubiKey-backed SSH, GUI bound to admin networks
 - [ ] Wazuh SIEM in a dedicated security VLAN
 - [ ] Suricata IDS/IPS
 - [ ] Self-hosted Forgejo on Docker with WireGuard access
 - [ ] Frigate NVR with go2rtc
 - [ ] Real-world deployment: Wi-Fi and firewall for an event venue (anonymized)
+- [ ] Checking OPNsense for signs of a break-in after a late patch
 
 Each write-up follows the same format: **problem → decisions and why → key config (sanitized) → what went wrong → next steps.**
 
