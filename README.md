@@ -91,6 +91,7 @@ Planned case studies, one per week:
 - [ ] Frigate NVR with go2rtc
 - [ ] Real-world deployment: Wi-Fi and firewall for an event venue (anonymized)
 - [ ] Checking OPNsense for signs of a break-in after a late patch
+- [ ] UPS integration for automatic shutdown
 
 Each write-up follows the same format: **problem → decisions and why → key config (sanitized) → what went wrong → next steps.**
 
