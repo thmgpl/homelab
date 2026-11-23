@@ -4,7 +4,7 @@
 
 Before this, I didn't use SSH on the firewall at all. Everything was done in the web GUI.
 
-That changed when a PHP vulnerability was being exploited all over the world. The OPNsense web GUI runs on PHP, and I installed the fix about a week late, maybe more. So I wanted to check whether anything had happened in that time: I went through the logs and checked whether anything had been planted on the system. I found no signs of a break-in.
+That changed when a PHP vulnerability was being exploited all over the world. The OPNsense web GUI runs on PHP, and I installed the fix about a week late, maybe more. So I wanted to check whether anything had happened in that time: I went through the logs and checked whether anything had been planted on the system. I found no signs of a break-in. How I did that check: [02 – Checking OPNsense for signs of a break-in](02-break-in-check.md).
 
 For that I needed a shell, so I turned on SSH with root password login for a short time. That's not something I wanted to leave on, so after the check I moved SSH to a hardware key.
 
